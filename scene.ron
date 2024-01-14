@@ -1,0 +1,29 @@
+(
+    scenes: [
+        (
+            entities: [
+                [
+                    Transform((
+                        x: 0.5,
+                        y: -0.31,
+                    )),
+                    Tile(
+                        tile_sheet_name: "\"tiles.png\" Sprite Atlas",
+                        coord: (1, 3),
+                    ),
+                    OnKeyPress("rumigame::hot::hot_lib::mov"),
+                ],
+            ],
+        ),
+    ],
+    assets: [
+        Image(
+            file_path: "/home/nhlest/repo/rumigame/assets/tiles.png",
+        ),
+        SpriteAtlas(
+            image: "11",
+            sx: 10,
+            sy: 67,
+        ),
+    ],
+)

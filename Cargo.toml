@@ -10,9 +10,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-#ruminative = { path = "../ruminative" }
-ruminative = { git = "https://github.com/Nhlest/ruminative", branch = "master" }
-hot-lib-reloader = "0.6.*"
+ruminative = { path = "../ruminative" }
+#ruminative = { git = "https://github.com/Nhlest/ruminative", branch = "master" }
+#hot-lib-reloader = "0.6.*"
 #lib = { path = "lib" }
 
 

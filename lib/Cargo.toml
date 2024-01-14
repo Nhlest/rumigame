@@ -10,4 +10,4 @@ edition = "2021"
 ruminative = { git = "https://github.com/Nhlest/ruminative", branch = "master" }
 
 [lib]
-crate-type = ["rlib", "dylib"]
+#crate-type = ["rlib", "dylib"]
